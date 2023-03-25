@@ -1,5 +1,12 @@
 -- Odefe Oberabor - Data Analytics - PostgreSQL Assignment 2
 
+
+/* DAMILARE'S COMMENT:
+Odefe, Awesome technique here. 
+But I would have loved to see it all in one query
+*/
+
+
 -- Q3 - The country with the highest and lowest apperance in the last five years?
 
 --Highest:Argentina with 5
@@ -135,6 +142,12 @@ LIMIT 1;
 
 
 -- Q4 - The country with the highest and lowest games played?
+
+/* DAMILARE'S COMMENT:
+Odefe, NOPE. Hell no. I disagree with this one
+*/
+
+
 --Highest:Portugal with 7
 SELECT team, MAX(games_played) AS max_games_played
 FROM all_world_cup
